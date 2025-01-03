@@ -10,13 +10,13 @@ interface MessageLinksProps {
 }
 
 const links = [
-  { key:'1', name: "Emma Johnson", href: "/dashboard/messages/emma-johnson", imageSrc: "/p1.png", message: "You are now connected." },
-  { key:'2', name: "Olivia Smith", href: "/dashboard/messages/olivia-smith", imageSrc: "/p2.png", message: "u up?" },
-  { key:'3', name: "Ava Williams", href: "/dashboard/messages/ava-williams", imageSrc: "/p3.png", message: "Congrats on your new job" },
-  { key:'4', name: "Liam Brown", href: "/dashboard/messages/liam-brown", imageSrc: "/p4.png", message: "maybe next time" },
-  { key:'5', name: "Noah Davis", href: "/dashboard/messages/noah-davis", imageSrc: "/p5.png", message: "see you bro" },
-  { key:'6', name: "James Wilson", href: "/dashboard/messages/james-wilson", imageSrc: "/p6.png", message: "what's up?" },
-  { key:'7', name: "Ethan Clark", href: "/dashboard/messages/ethan-clark", imageSrc: "/p7.png", message: "they were looking for you at work" },
+  { key:'1', name: "Emma Johnson", href: "/dashboard/messages/emma-johnson", imageSrc: "/p1.jpg", message: "You are now connected." },
+  { key:'2', name: "Olivia Smith", href: "/dashboard/messages/olivia-smith", imageSrc: "/p2.jpg", message: "u up?" },
+  { key:'3', name: "Ava Williams", href: "/dashboard/messages/ava-williams", imageSrc: "/p3.jpg", message: "Congrats on your new job" },
+  { key:'4', name: "Liam Brown", href: "/dashboard/messages/liam-brown", imageSrc: "/p4.jpg", message: "maybe next time" },
+  { key:'5', name: "Noah Davis", href: "/dashboard/messages/noah-davis", imageSrc: "/p5.jpg", message: "see you bro" },
+  { key:'6', name: "James Wilson", href: "/dashboard/messages/james-wilson", imageSrc: "/p6.jpg", message: "what's up?" },
+  { key:'7', name: "Ethan Clark", href: "/dashboard/messages/ethan-clark", imageSrc: "/p7.jpg", message: "they were looking for you at work" },
 ];
 
 export default function MessageLinks({ onLinkClick }: MessageLinksProps) {

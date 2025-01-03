@@ -18,14 +18,14 @@ const images = [
 ];
 
 const people = [
-  { key:'1', name: 'Sophia Lily', href: '/dashboard/profilePlaceholder', src: '/person1.png', alt: 'Image 1' },
-  { key:'2', name: 'Charlotte Anne', href: '/dashboard/profilePlaceholder', src: '/person2.png', alt: 'Image 2' },
-  { key:'3', name: 'Harper Victoria', href: '/dashboard/profilePlaceholder', src: '/person3.png', alt: 'Image 3' },
-  { key:'4', name: 'Amelia Mae', href: '/dashboard/profilePlaceholder', src: '/person4.png', alt: 'Image 4' },
-  { key:'5', name: 'Jack Harrison', href: '/dashboard/profilePlaceholder', src: '/person5.png', alt: 'Image 5' },
-  { key:'6', name: 'Eli Johnson', href: '/dashboard/profilePlaceholder', src: '/person6.png', alt: 'Image 6' },
-  { key:'7', name: 'Ella Kate', href: '/dashboard/profilePlaceholder', src: '/person7.png', alt: 'Image 7' },
-  { key:'8', name: 'Lucas Alexander', href: '/dashboard/profilePlaceholder', src: '/person8.png', alt: 'Image 8' },
+  { key:'1', name: 'Sophia Lily', href: '/dashboard/profilePlaceholder', src: '/person1.jpg', alt: 'Image 1' },
+  { key:'2', name: 'Charlotte Anne', href: '/dashboard/profilePlaceholder', src: '/person2.jpg', alt: 'Image 2' },
+  { key:'3', name: 'Harper Victoria', href: '/dashboard/profilePlaceholder', src: '/person3.jpg', alt: 'Image 3' },
+  { key:'4', name: 'Amelia Mae', href: '/dashboard/profilePlaceholder', src: '/person4.jpg', alt: 'Image 4' },
+  { key:'5', name: 'Jack Harrison', href: '/dashboard/profilePlaceholder', src: '/person5.jpg', alt: 'Image 5' },
+  { key:'6', name: 'Eli Johnson', href: '/dashboard/profilePlaceholder', src: '/person6.jpg', alt: 'Image 6' },
+  { key:'7', name: 'Ella Kate', href: '/dashboard/profilePlaceholder', src: '/person7.jpg', alt: 'Image 7' },
+  { key:'8', name: 'Lucas Alexander', href: '/dashboard/profilePlaceholder', src: '/person8.jpg', alt: 'Image 8' },
 ];
 
 export default function Page() {
@@ -85,7 +85,7 @@ export default function Page() {
                   alt={person.alt}
                   width={240}
                   height={240}
-                  className="flex h-[48px] w-full h-auto rounded-lg shadow-md object-cover"
+                  className="h-auto w-full h-auto rounded-lg shadow-md object-cover"
                 />
                 <div>
                 <Link

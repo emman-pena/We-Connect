@@ -18,13 +18,13 @@ import clsx from 'clsx';
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
-  { key:'1', name: 'Emma Johnson', href: '/dashboard/messages/emma-johnson', imageSrc: '/p1.png'},
-  { key:'2', name: 'Olivia Smith', href: '/dashboard/messages/olivia-smith', imageSrc: '/p2.png'},
-  { key:'3', name: 'Ava Williams', href: '/dashboard/messages/ava-williams', imageSrc: '/p3.png'},
-  { key:'4', name: 'Liam Brown', href: '/dashboard/messages/liam-brown', imageSrc: '/p4.png'},
-  { key:'5', name: 'Noah Davis', href: '/dashboard/messages/noah-davis', imageSrc: '/p5.png'},
-  { key:'6', name: 'James Wilson', href: '/dashboard/messages/james-wilson', imageSrc: '/p6.png'},
-  { key:'7', name: 'Ethan Clark', href: '/dashboard/messages/ethan-clark', imageSrc: '/p7.png'},    
+  { key:'1', name: 'Emma Johnson', href: '/dashboard/messages/emma-johnson', imageSrc: '/p1.jpg'},
+  { key:'2', name: 'Olivia Smith', href: '/dashboard/messages/olivia-smith', imageSrc: '/p2.jpg'},
+  { key:'3', name: 'Ava Williams', href: '/dashboard/messages/ava-williams', imageSrc: '/p3.jpg'},
+  { key:'4', name: 'Liam Brown', href: '/dashboard/messages/liam-brown', imageSrc: '/p4.jpg'},
+  { key:'5', name: 'Noah Davis', href: '/dashboard/messages/noah-davis', imageSrc: '/p5.jpg'},
+  { key:'6', name: 'James Wilson', href: '/dashboard/messages/james-wilson', imageSrc: '/p6.jpg'},
+  { key:'7', name: 'Ethan Clark', href: '/dashboard/messages/ethan-clark', imageSrc: '/p7.jpg'},    
 ];
 
 export default function FriendLinks() {
