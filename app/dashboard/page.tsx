@@ -23,7 +23,7 @@ export default function Page() {
       <div className='flex flex-col gap-4'> 
         <div className="flex flex-col h-25 shrink-0 items-center justify-center rounded-lg shadow-md bg-white gap-4 p-4 md:h-25">
                 <div className="flex flex-row items-center gap-2 w-full">
-                  <Image src='/profile.png' alt='profile' width={50} height={50} className="rounded-full"/>
+                  <Image src='/profile.jpg' alt='profile' width={50} height={50} className="rounded-full"/>
                   <form className='w-full'>
                     <input type="text" className="flex h-10 shrink-0 items-end rounded-full bg-gray-50 p-4 border-none w-full md:h-25" placeholder="What's on your mind?"/>
                       

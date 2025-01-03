@@ -10,13 +10,13 @@ interface MessageLinksProps {
 }
 
 const links = [
-  { name: "Emma Johnson", href: "/dashboard/messages/emma-johnson", imageSrc: "/p1.png", message: "You are now connected." },
-  { name: "Olivia Smith", href: "/dashboard/messages/olivia-smith", imageSrc: "/p2.png", message: "u up?" },
-  { name: "Ava Williams", href: "/dashboard/messages/ava-williams", imageSrc: "/p3.png", message: "Congrats on your new job" },
-  { name: "Liam Brown", href: "/dashboard/messages/liam-brown", imageSrc: "/p4.png", message: "maybe next time" },
-  { name: "Noah Davis", href: "/dashboard/messages/noah-davis", imageSrc: "/p5.png", message: "see you bro" },
-  { name: "James Wilson", href: "/dashboard/messages/james-wilson", imageSrc: "/p6.png", message: "what's up?" },
-  { name: "Ethan Clark", href: "/dashboard/messages/ethan-clark", imageSrc: "/p7.png", message: "they were looking for you at work" },
+  { key:'1', name: "Emma Johnson", href: "/dashboard/messages/emma-johnson", imageSrc: "/p1.png", message: "You are now connected." },
+  { key:'2', name: "Olivia Smith", href: "/dashboard/messages/olivia-smith", imageSrc: "/p2.png", message: "u up?" },
+  { key:'3', name: "Ava Williams", href: "/dashboard/messages/ava-williams", imageSrc: "/p3.png", message: "Congrats on your new job" },
+  { key:'4', name: "Liam Brown", href: "/dashboard/messages/liam-brown", imageSrc: "/p4.png", message: "maybe next time" },
+  { key:'5', name: "Noah Davis", href: "/dashboard/messages/noah-davis", imageSrc: "/p5.png", message: "see you bro" },
+  { key:'6', name: "James Wilson", href: "/dashboard/messages/james-wilson", imageSrc: "/p6.png", message: "what's up?" },
+  { key:'7', name: "Ethan Clark", href: "/dashboard/messages/ethan-clark", imageSrc: "/p7.png", message: "they were looking for you at work" },
 ];
 
 export default function MessageLinks({ onLinkClick }: MessageLinksProps) {
@@ -31,7 +31,7 @@ export default function MessageLinks({ onLinkClick }: MessageLinksProps) {
     <>
       {links.map((link) => (
         <div
-          key={link.name}
+          key={link.key}
           onClick={() => handleClick(link.href)} // Trigger navigation and visibility toggle
           className={clsx(
             "flex h-[64px] grow items-center justify-start gap-2 rounded-md bg-white p-3 text-sm font-medium hover:bg-gray-100 hover:text-black md:flex-none md:justify-start md:p-2 md:px-3 cursor-pointer"

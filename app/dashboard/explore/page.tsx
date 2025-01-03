@@ -18,14 +18,14 @@ const images = [
 ];
 
 const people = [
-  { name: 'Sophia Lily', href: '/dashboard/profilePlaceholder', src: '/person1.png', alt: 'Image 1' },
-  { name: 'Charlotte Anne', href: '/dashboard/profilePlaceholder', src: '/person2.png', alt: 'Image 2' },
-  { name: 'Harper Victoria', href: '/dashboard/profilePlaceholder', src: '/person3.png', alt: 'Image 3' },
-  { name: 'Amelia Mae', href: '/dashboard/profilePlaceholder', src: '/person4.png', alt: 'Image 4' },
-  { name: 'Jack Harrison', href: '/dashboard/profilePlaceholder', src: '/person5.png', alt: 'Image 5' },
-  { name: 'Eli Johnson', href: '/dashboard/profilePlaceholder', src: '/person6.png', alt: 'Image 6' },
-  { name: 'Ella Kate', href: '/dashboard/profilePlaceholder', src: '/person7.png', alt: 'Image 7' },
-  { name: 'Lucas Alexander', href: '/dashboard/profilePlaceholder', src: '/person8.png', alt: 'Image 8' },
+  { key:'1', name: 'Sophia Lily', href: '/dashboard/profilePlaceholder', src: '/person1.png', alt: 'Image 1' },
+  { key:'2', name: 'Charlotte Anne', href: '/dashboard/profilePlaceholder', src: '/person2.png', alt: 'Image 2' },
+  { key:'3', name: 'Harper Victoria', href: '/dashboard/profilePlaceholder', src: '/person3.png', alt: 'Image 3' },
+  { key:'4', name: 'Amelia Mae', href: '/dashboard/profilePlaceholder', src: '/person4.png', alt: 'Image 4' },
+  { key:'5', name: 'Jack Harrison', href: '/dashboard/profilePlaceholder', src: '/person5.png', alt: 'Image 5' },
+  { key:'6', name: 'Eli Johnson', href: '/dashboard/profilePlaceholder', src: '/person6.png', alt: 'Image 6' },
+  { key:'7', name: 'Ella Kate', href: '/dashboard/profilePlaceholder', src: '/person7.png', alt: 'Image 7' },
+  { key:'8', name: 'Lucas Alexander', href: '/dashboard/profilePlaceholder', src: '/person8.png', alt: 'Image 8' },
 ];
 
 export default function Page() {

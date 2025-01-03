@@ -33,7 +33,7 @@ export default function NotificationLinks() {
             >
                     <div className='flex flex-col'>
                         <div className='flex flex-row gap-2 items-center'>
-                            <Image src={link.imageSrc} alt={link.name} width={36} height={36} className="rounded-full"/>
+                            <Image src={link.imageSrc} alt={link.name} width={40} height={40} className="rounded-full"/>
                             <div className='flex flex-col items-start'>
                                 <p className="block md:block text-lg">{link.name}</p>
                                 <p className="block md:block text-gray-700">{link.message}</p>
