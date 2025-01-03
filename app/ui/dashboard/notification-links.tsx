@@ -8,13 +8,13 @@ import clsx from 'clsx';
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
-  { key:'1', name: 'Emma Johnson', href: '/dashboard/profilePlaceholder', imageSrc: '/p1.png', message: 'Accepted your connection request.'},
-  { key:'2',name: 'Olivia Smith', href: '/dashboard/profilePlaceholder', imageSrc: '/p2.png', message: 'Updated status to single.'},
-  { key:'3',name: 'Ava Williams', href: '/dashboard/profilePlaceholder', imageSrc: '/p3.png', message: 'Started a new job at XYZ Inc..'},
-  { key:'4',name: 'Liam Brown', href: '/dashboard/profilePlaceholder', imageSrc: '/p4.png', message: 'Accepted your connection request.'},
-  { key:'5',name: 'Noah Davis', href: '/dashboard/profilePlaceholder', imageSrc: '/p5.png', message: 'Have 1 new post.'},
-  { key:'6',name: 'Ava Williams', href: '/dashboard/profilePlaceholder', imageSrc: '/p3.png', message: 'Accepted your connection request.'},
-  { key:'7',name: 'Noah Davis', href: '/dashboard/profilePlaceholder', imageSrc: '/p5.png', message: 'Posted an update.'},    
+  { key:'1', name: 'Emma Johnson', href: '/dashboard/profilePlaceholder', imageSrc: '/p1.jpg', message: 'Accepted your connection request.'},
+  { key:'2',name: 'Olivia Smith', href: '/dashboard/profilePlaceholder', imageSrc: '/p2.jpg', message: 'Updated status to single.'},
+  { key:'3',name: 'Ava Williams', href: '/dashboard/profilePlaceholder', imageSrc: '/p3.jpg', message: 'Started a new job at XYZ Inc..'},
+  { key:'4',name: 'Liam Brown', href: '/dashboard/profilePlaceholder', imageSrc: '/p4.jpg', message: 'Accepted your connection request.'},
+  { key:'5',name: 'Noah Davis', href: '/dashboard/profilePlaceholder', imageSrc: '/p5.jpg', message: 'Have 1 new post.'},
+  { key:'6',name: 'Ava Williams', href: '/dashboard/profilePlaceholder', imageSrc: '/p3.jpg', message: 'Accepted your connection request.'},
+  { key:'7',name: 'Noah Davis', href: '/dashboard/profilePlaceholder', imageSrc: '/p5.jpg', message: 'Posted an update.'},    
 ];
 
 export default function NotificationLinks() {
